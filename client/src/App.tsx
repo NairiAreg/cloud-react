@@ -1,11 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
 
 function App() {
   return (
-    <div className="App"></div>
-  );
+    <div className="App">
+      <h1>CRUD Application</h1>
+
+      <div className="d-flex flex-column align-items-center">
+        <input type="text" name="movieName" />
+        <input type="text" name="review" />
+      </div>
+    </div>
+  )
 }
 
-export default App;
+export default App
